@@ -1,0 +1,11 @@
+Command Line Arguments
+---------------------------------
+Command line argument is an argument i.e passed at the time of running the java program.
+You can pass n numbers of arguments to the main function from the command line while executing the program, separating them with spaces.
+
+class name and command line file name should be same. 
+
+Javac CommandLine.java  //use to compile the file.
+CommandLine will be replace with the file name
+
+java CommandLine Ram Shyam Sita// Ram Shyam Sita are the three arguments will we will pass

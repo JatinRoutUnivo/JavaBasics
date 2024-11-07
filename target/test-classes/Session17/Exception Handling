@@ -1,0 +1,41 @@
+Exception handling:- Try-Catch-Finally
+-----------------------------------------------
+Types of error
+-------------------
+1. Compile time error/Checked error:- jab code likh rahe hote hai or usme koi error show karta hai to use compile time and checked error kehte hai.
+ compile time error 2 tarah k hote hai
+ 1.1 Syntax error:-syntax error means ki jab hum varibale declare karte hai to declaration k time jo error hota hai use syntax error kehte hai. jaise (int a; ye sahi format hai but agar isko in a; aise likhte hai to ise syntax error kehte hai.)
+ 1.2 Semantic error:-jab undeclared variable ko use karte hai to use Semantic error kehte hai. or jab type mismatch hota hai means int type ka data type hai lekin value String type ki de hai. to use bhi semantic error kehte hai.
+ 
+ 2. Run time error/Unchecked error
+ A runtime error is called an Exception error. Jo error compile time pe nahi milte lekin program k normal flow ko intruppt karte hai use Run time error kehte hai.
+ example:- arithmetic exception, Null pointyer exception, Divide by zero exception, etc.
+ 
+ What are exception:-
+ -----------------------------
+ Exception is  an event that interrupts the normal flow of the program.
+ 
+ Exception islye handle karna jaruri hai taaki agar program k run time pe koi exception aata hai to code ka execution stop na ho. 
+ 
+ How to handle exceptions
+ -------------------------------
+ Keyword       Description
+ -------       ----------------
+  try          Try hum us code block k liye use karte hai jaha hume lagta hai ki exception aa sakta hai ya exception aane ke chances hai.
+               Try block kabhi bhi akela use nahi karte hai. agar hum try block use kr rahe hai to use sath catch ya finally keyword use karna jaruri hai. 
+               
+  catch        catch block hum exception handle karne k liye use karte hai. try block hum use karte hai jaha hume lagta hai ki exception aa sakta hai ya exception
+               aane ke chances hai, agar exception aata hai to catch block exception ko handle karta hai. catch hum akela use nahi kar sakte. uske liye try ka hone jaruri hai.  
+               
+  finally      The finally block is used to execute the necessary code of the program.It is executed whether an exception is handled or not.
+               (agar exception occur nahi hota to catch ki jagah finally block execute hota hai.Agar exception aata hai to pehle catch block execute hoga and then finally block execute hoga.)
+                            
+               
+               
+               
+               
+               
+               
+               
+               
+                     

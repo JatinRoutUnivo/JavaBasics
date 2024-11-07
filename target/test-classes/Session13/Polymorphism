@@ -1,0 +1,46 @@
+Polymorphism
+--------------------
+The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form. 
+Real life example of polymorphism, a person at the same time can have different characteristic. Like a man at the same time is a father, a husband, an employee.
+It enables a single action to behave differently based on the object or context it's working with, enhancing flexibility and reusability in code.
+
+Method overloading
+------------------------
+With method overloading, multiple methods can have the same name with different parameters number and different parameter data types.
+
+example:-
+int myMethod(int x)
+float myMethod(float x)
+double myMethod(double x, double y)
+
+Advantages of method overloading
+-----------------------------------------
+save memory
+increase the readability of the program.
+
+Different ways to overload the method.
+---------------------------------------------
+There are two ways to overload the method.
+By changing number of parameters
+By changing the datatype 
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Constructor overloading
+--------------------------------------------
+same like method overloading. multiple constructor can have
+	 * same name
+	 * different parameter number
+	 * different parameter data type
+	 
+	 
+Main method overloading
+--------------------------------------------------------
+Yes, we can overload main method
+application entry point will be 
+public static void main(String[] args){
+}	 
+
+application execute to main method se he hoga chahea main method k name se kitne bhi method banao.
+
+

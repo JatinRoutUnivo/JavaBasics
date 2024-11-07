@@ -1,0 +1,23 @@
+Method overriding
+-------------------------------
+
+Q:- What is method overriding?
+Ans.:-If child class has the same method definition as declared in the parent class, then it is known as method overriding in java.
+(Means agar parent class and child class ka method definition same hota hai to child class parent class k method ko override kar deta hai. isi ko method overriding kehte hai. Ye polymorphism ka concept hai.)
+
+Polymorphism
+------------------
+1. Method overloading:- explained in session 13. Method overloading ko compile time polymorphism bhi kehte hai.
+2. Method overriding:-Method overriding ko run time polymorphism kehte hai. 
+Method overriding ka matlab ki jab bhi child class override karegi parent class ko tab method ka definition same rehna chahea. method ka body change kr sakti hai child class lekin parent class ka definition same rehna chahea
+definition matlab ki parent class ka method jaise eg. "void classname(int a)" ye child class me same rehna chahea.
+parent method ka name, parameter, parameter data type, parameter order, return type sab same rahega child class me bus body change hogi.
+
+
+Rules for java method overriding
+--------------------------------------------
+1. The method must have the same name as in the Parent class.
+2. The method must have the same paramneter as in the parent class.
+3. A method declared final cannot be overridden.
+4. A method declared static cannot be overridden.
+5. The access level cannot be more restrictive than the overridden method's access level.

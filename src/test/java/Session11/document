@@ -1,0 +1,52 @@
+use of static keyword in java:- It is used for memory management. 
+static kisko declare kar sakte hai:-
+1. static variable
+2. static methods
+3. static blocks
+
+Static variable
+--------------------------------------
+static variable gets memory only once in a class loading. Static variables ko class me sirf ek bar memory allocate hoti hai.
+Static variables of the class are share with all the objects. Static variables are memory efficient or it saves memory. 
+Scenario:- store data of 500 students of "Bharti college"
+
+class Students(){
+//class variables
+int rollno; //non static, unique for each students
+String studentName; //non static, unique for each students
+static String CollegeName; //static
+}
+
+Agar 500 students ka data store karna haoi to 500 times class ka object banana padega because student name or roll number alag alag hota hai.
+Lekin college name same hai sabhi students ka. So islye. college name ho hum static declare kr sakte hai taaki hume bar bar college name na dena pade students ka data store karte time.
+
+
+static methods
+----------------------------------------------------------
+1. A static method belongs to the class rather than the object of the class.
+2. A static method can be invoked without the need for creating an instance/object of a class. means class ka object babnane ki jarurat nahi hoti.
+3. A static method can access static data member and can change the value of it. 
+
+
+Restriction to use static methods
+---------------------------------------------------
+1. The static method cannot  use non static data members or call non-static method directly.
+2. this anbd super cannot be used in static context.
+
+
+Java static blocks
+--------------------------------------------
+1. static blocks are used to initialize static data members
+2. static blocks is invoke before the main method during class loading. 
+
+
+
+Important question
+----------------------------------
+Q:- Java me main method static kyu hota hai?
+Ans.:- It is static because we don't need to create object to call static methods.If main method has been non-static, everytime to call main method Java Virtual Machine (JVM) need to create object to call method
+which would lead extra memory allocation.
+The JVM doesn’t need to create an instance of the class before calling main, which can save memory and improve startup time, especially in large applications.
+
+
+

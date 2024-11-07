@@ -1,0 +1,45 @@
+Session14
+--------------------------------------
+
+What is Inheritance
+----------------------------------------------
+Inheritance is java is a concept in which one class acquired all the attributes(property) and methods of a parent class.
+(means inheritance me ek class apne parent class ki property and methods ko inhert kr leta hai. means ki parent class k attribute and methods ko apni class me use kar sakta hai.)
+ Parent class ki property and method ko inhert karne k liye "extends" keyword use hota hai.
+ 
+ syntax:-0
+ ----------------------
+ class childclass-name extends Parentclass-name{
+ //metnhods and fields
+ }
+ 
+ * Parent class ko hum Super class or Base class bhi kehte hai.
+ * Jo class inhert kar rahe hoti hai usko child class kehte hai. Child class ko hum Subclass bhi kehnte hai or derived class bhi kehte hai.
+ * Jis class ko inhert karte hai use Parent class/Super class/Base class bhi kehte hai.
+ 
+ Types of inheritance:-
+ ---------------------------
+ There are 5 types of inheritance
+ 1. Single level inheritance:- Extend keyword used. Class B extend the attribute and methods of Parent class A.
+ ----------------------------
+ Class A
+ extends
+ Class B
+ 
+ 2. Multi level inheritance:- Extend keyword used. Class C extend the attribute and methods of parent class B. and Class B extend the attribute and method of parent class A. So class C has its own property and methods as well as class b and class A property and methhod. Same class B has its own property as well as the prop[erty and class A
+ -----------------------
+ Class A
+ extends
+ ClassB
+ extends
+ Class C
+ 
+ 3. Hierarchical inheritance:-Extend keyword used.:-Class A is a Parent class and have two child class. Class B & Class C. Both class B and class C has the property and methods of class A as both extends Class A.
+ ------------------------------
+             Class A
+     extends          extends
+  Class B                Class C
+ 
+ 
+ 4. Multiple inheritance:- Interface use
+ 5. Hybrid inheritance:- Interface use

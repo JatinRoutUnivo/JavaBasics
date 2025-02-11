@@ -1,6 +1,6 @@
 package JavaBasics;
 
-public class StringOperationsMethod {
+public class Session07_StringOperationsMethod {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -8,11 +8,12 @@ public class StringOperationsMethod {
 		 * Strings are collection of characters. in java, strings are treated as a object.
 		 */
 		
-		// ChatAt method:- iska use characters ki position ko find karne k liye kiya jata hai.
+		// CharAt method:- iska use characters ki position ko find karne k liye kiya jata hai.
 		String s="Hello java"; //H=0, e=1, l=2,l=3,o=4, space=5, j=6,a=7,v=8,a=9  space between the alphabets is also counted as a character
 		System.out.println(s.charAt(6));
 		//-------------------------to know the size of the character
 		 System.out.println(s.length());
+		 
 		
 		//----------------------to lowercase
 			System.out.println(s.toLowerCase());

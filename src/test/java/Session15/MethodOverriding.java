@@ -4,15 +4,15 @@ package Session15;
 class Bank { //Parent class
 
 	double	getRateOfInterest(){
-
 		return 0.0;
+
 
 	}
 }
 
 class Axis extends Bank {
 
-	double	getRateOfInterest() {//method overriddden : method deficition is same as parent class
+	double	getRateOfInterest() {//method overriddden : method definition is same as parent class
 		return 5.2;//change body but method is same like the parent class
 	}
 
@@ -20,7 +20,7 @@ class Axis extends Bank {
 
 class Icici extends Bank {
 
-	double	getRateOfInterest() {//method overriddden : method deficition is same as parent class
+	double	getRateOfInterest() {//method overriddden : method definition is same as parent class
 		return 5.9;//change body but method is same like the parent class
 	}
 }

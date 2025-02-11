@@ -12,7 +12,6 @@ public class SecondClass {
 		Myclass obj=new Myclass("Thar", 2026);
 		System.out.println(obj.car + " " + obj.year);
 		
-		
 
 	}
 

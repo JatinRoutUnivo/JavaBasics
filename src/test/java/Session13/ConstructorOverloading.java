@@ -22,6 +22,7 @@ public class ConstructorOverloading {
 	ConstructorOverloading(double x, double y){  //3rd constructor
 		System.out.println("x:- " + x);
 		System.out.println("y:-" + y);
+		System.out.println("Sum of x & y:- " + (x+y));
 		
 	}
 	
@@ -33,7 +34,6 @@ public class ConstructorOverloading {
 		ConstructorOverloading obj1=new ConstructorOverloading(5);//1st constructor will invoke as int data type given in this
 		ConstructorOverloading obj2=new ConstructorOverloading(5.2); //2nd constructor will invoke as double data type given in this
 		ConstructorOverloading obj3=new ConstructorOverloading(2.5, 6.8);//3rd constructor will invoke as 2 double data type given in this
-		
 		
 
 	}

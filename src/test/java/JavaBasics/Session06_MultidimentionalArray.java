@@ -2,7 +2,7 @@ package JavaBasics;
 
 import org.apache.commons.math3.geometry.Space;
 
-public class MultidimentionalArray {
+public class Session06_MultidimentionalArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -35,7 +35,7 @@ public class MultidimentionalArray {
 	  
 	//To know the length of column
 int	column=a[0].length;
-System.out.println("Number of column:- " + column);
+System.out.println("Number of column in array:- " + column);
 
 ////read and print all values of array
 for (int i=0; i<rows; i++) {
@@ -47,11 +47,13 @@ for (int i=0; i<rows; i++) {
 	System.out.println();
 }
 
-	
+
+}	
+
 	   
 		
 		
 
 	}
 
-}
+

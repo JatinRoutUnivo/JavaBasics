@@ -1,4 +1,4 @@
-package Session11;
+ package Session11;
 
 public class Counter {
 	
@@ -8,7 +8,7 @@ public class Counter {
 	
 	public Counter() { //constructor without parameter
 		
-		count++; //increment by 1.retail its value.
+		count++; //increment by 1.retaiN its value.
 		System.out.println(count);// count = 1,2,3
 		
 	}
@@ -19,6 +19,8 @@ public class Counter {
 		Counter obj1=new Counter();
 		Counter obj2=new Counter();
 		Counter obj3=new Counter();
+		Counter obj4=new Counter();
+		Counter obj5=new Counter();
 		
 
 	}

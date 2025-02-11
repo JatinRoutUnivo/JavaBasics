@@ -1,0 +1,87 @@
+Abstraction, Abstract classes, Interfaces
+--------------------------------------------------
+
+Abstraction:-Abstraction is a process of hiding the implementation details and showing only the functionality to the user.
+(means Abstraction me hum user ko sirf functionality dikhate hai lekin uske andar kya processing chal rahe hai wo nahi dikhate.)
+
+For example, sending SMS where you type the text and send the message. You don't know the internal processing about the message delivery.
+
+How to achieve Abstraction:-
+----------------------------------
+1. Abstract classes (0-100%) :- Abstraction me hum 100% abstraction achieve nahi kr sakte
+2. Interface (100%):- Interface me hum 100% abstraction achieve kr sakte hai.
+
+Abstract Classes:-
+-----------------------------
+a) An abstract class must be declared with an abstract keyword
+b) It can have abstract and non-abstract methods. Abstract methods doesn't have body. The body is provided by the subclass (inherited from).
+c) It cannot be instantiated. To access it, it must be inherited from another class.:- Means ki abstract class ka object nahi banaya ja sakta. Abstract class ko use karne k liye usko inhert karna padta hai dusri class se.
+d) It can have constructors and static methods
+e) It can have final methods which will force the subclass not to
+change the body of the method
+	
+
+Syntax of Abstract Class
+-----------------------------------------------------------------------
+Example of abstract class
+-------------------------
+abstract class A{}
+
+
+Example of abstract method
+---------------------------
+abstract void abstractMethodEX();//no method body
+
+--------------------------------------------------Interface--------------------------------------------------------------------------------------------
+
+Interfaces
+-----------------------------------
+An interface is an abstract "class" that is used to group related
+methods with "empty" bodies:
+
+Points/Rules for implementing interface
+--------------------------------------------
+a) You cannot instantiate an interface:- means object nahi bana sakte interface ka
+b) An interface does not contain any constructors
+c) All of the methods in an interface are abstract and public
+d) An interface cannot contain instance fields. The only fields that can appear in an interface must be declared both static and final
+e) An interface is not extended by a class; it is implemented by a class
+f) An interface can extend multiple interfaces
+
+
+Syntax of Interface
+---------------------------------------
+interface <interface_name>{ {
+
+// declare constant fields. Interface fields are public & static by default
+// declare methods. Methods are public abstract by default
+}
+
+Important point:-
+-------------
+Interface never implement or extend any class. there is no such relationship.
+class can implement interfaces
+interface can extend another interface.
+
+interface k saare methods abstract method hote hai means ki kisi bhi methods ki body nahi hoti. so methods ko implement karne k liye interface ko class ki jarurat hoti hai.
+islye class implement karta hai interface ko. jaise abstraction me class extend karta hai usi tarah interface me implement use hota hai taaki 100% abstraction schieve kiya ja sake.
+
+Interface k abstract methods by-default public hote hai. Class k methods by-deault "default" hote hai. Accesss-modifier "default" hota hai class k methods ka.
+so jab hum class me interface ko implement karte hai to access modifier hume default se public change karta hota hai.
+
+visibility of access modifier
+--------------
+public
+default
+protected
+private
+
+Note:
+1. A class extends another class.
+2. An interface extends another interface.
+3. A class implements an interface.
+
+
+
+
+

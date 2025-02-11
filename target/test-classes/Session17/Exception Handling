@@ -9,7 +9,7 @@ Types of error
  
  2. Run time error/Unchecked error
  A runtime error is called an Exception error. Jo error compile time pe nahi milte lekin program k normal flow ko intruppt karte hai use Run time error kehte hai.
- example:- arithmetic exception, Null pointyer exception, Divide by zero exception, etc.
+ example:- arithmetic exception, Null pointer exception, Divide by zero exception, etc.
  
  What are exception:-
  -----------------------------

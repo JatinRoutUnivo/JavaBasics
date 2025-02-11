@@ -66,9 +66,9 @@ public class Methods_static_nonStatic {
 		printMessage();  //static method uper banaya hai, islye class ka object banane ki jarurat nahi. Direct method ko call kar sakte hai.
 		sum(5, 15); //sum method me humne parameter diya hai, islye uski value yaha main method me assign hoti hai.jab hum value assign karte hai parameter ki to use argument kehte hai.
 ;
-		int result=sum2(25, 5);  //sum karke humne variable me save kr diya or porint karwa dniya.
+		int result=sum2(25, 5);  //sum karke humne variable me save kr diya or print karwa diya.
 		System.out.println("sum2 result of a & b:- " + result);
-		System.out.println(minimum(4, 8));// minimum method called. minimum valye print from the parameter. Arguments given in print statement to the parameter.
+		System.out.println(minimum(4, 3));// minimum method called. minimum value print from the parameter. Arguments given in print statement to the parameter.
 		
 
 	}

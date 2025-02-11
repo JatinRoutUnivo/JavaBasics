@@ -8,7 +8,7 @@ public class Students2 {
 	String studentName; //non static variable
 	static	String collegeName="Bharti College";//static variable
 	
-	public Students2(int rollno, String name) {  //constructor
+	 Students2(int rollno, String name) {  //constructor
 		roll=rollno;
 		studentName=name;
 		
@@ -31,6 +31,7 @@ public class Students2 {
 
 		Students2 obj1=new Students2(12, "Jatin");
 		Students2 obj2=new Students2(13, "Deepu");
+	
 		obj1.Print();
 		obj2.Print();
 		

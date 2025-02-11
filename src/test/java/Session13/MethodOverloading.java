@@ -37,7 +37,8 @@ public class MethodOverloading {
 		obj.add(5, 2); //1st methods will call as data given in this are int type
 		obj.add(5.4,3.8);//2nd method will call as data type given are double type means decimal type
 		obj.add(6, 5.3);//3rd methods will call as data type given are int  and double
-		obj.add(5, 2, 7);//4th method will call as data type and int and 3 parameters are given
+		obj.add(5, 2, 7);//4th method will call as data type is int and 3 parameters are given
+		
 		
 
 

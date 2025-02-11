@@ -41,7 +41,7 @@ public class Session08_Classes_Objects {
 
 	System.out.println("Name:-" + name);	
 	System.out.println("Roll no.:-" + rollno);// abhi value print nahi hogi because humne instance varibale ko value assign nahi ki hai. uske liye class ka object create karnba hoga.
-	//class ka object main function k andar create kiya jata hai. Jab bhi code execute bkarte hai to sabse pehle main function execute hota hai.islye class ka opbject hum main function me banate hai.
+	//class ka object main function k andar create kiya jata hai. Jab bhi code execute karte hai to sabse pehle main function execute hota hai.islye class ka opbject hum main function me banate hai.
 	
 	
 		
@@ -58,7 +58,7 @@ public class Session08_Classes_Objects {
 		student1.name="Jatin";
 		student1.rollno=12;
 	
-		student2.name="KK";
+		student2.name="rout";
 		student2.rollno=13;
 		
 		//print information of Student 1 and student 2

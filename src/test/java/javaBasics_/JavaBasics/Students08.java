@@ -4,17 +4,14 @@ package javaBasics_.JavaBasics;
 public class Students08 {
 	
 //-------------------------------------------------by method---------------------------------------------
-	
-	String name;
-	int rollno;
+
 	
 	void insertRecord(String Studentname, int studentRollno) {
 		
-		name=Studentname;
-		rollno=studentRollno;
 		
-		System.out.println("Name:-" + name);	
-		System.out.println("Roll no.:-" + rollno);
+		
+		System.out.println("Name:-" + Studentname);	
+		System.out.println("Roll no.:-" + studentRollno);
 		
 	}
 	
@@ -29,7 +26,7 @@ public class Students08 {
 		Students08 student2=new Students08();
 		
 		student1.insertRecord("Jatin", 12);
-		student2.insertRecord("KK", 13);
+		student2.insertRecord("Rout", 13);
 
 		
 		

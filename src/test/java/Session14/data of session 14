@@ -3,7 +3,7 @@ Session14
 
 What is Inheritance
 ----------------------------------------------
-Inheritance is java is a concept in which one class acquired all the attributes(property) and methods of a parent class.
+Inheritance in java is a concept in which one class acquired all the attributes(property) and methods of a parent class.
 (means inheritance me ek class apne parent class ki property and methods ko inhert kr leta hai. means ki parent class k attribute and methods ko apni class me use kar sakta hai.)
  Parent class ki property and method ko inhert karne k liye "extends" keyword use hota hai.
  

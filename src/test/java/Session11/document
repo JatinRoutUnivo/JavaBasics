@@ -31,7 +31,7 @@ static methods
 Restriction to use static methods
 ---------------------------------------------------
 1. The static method cannot  use non static data members or call non-static method directly.
-2. this anbd super cannot be used in static context.
+2. this and super cannot be used in static context.
 
 
 Java static blocks

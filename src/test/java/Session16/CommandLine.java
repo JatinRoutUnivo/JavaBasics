@@ -10,9 +10,9 @@ public class CommandLine {
 		
 	//using for each loop to print the name
 		
-		for(String name:args) {
+		for(String test:args) {
 			
-			System.out.println("Hello"+ " " + name);
+			System.out.println("Hello"+ " " + test);
 			
 		}
 
